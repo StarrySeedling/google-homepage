@@ -6,8 +6,12 @@ body {
 
 nav {
     display: grid;
-    grid-template: 50px / 7% 7% 72% 7% 7%;
+    grid-template: 50px / 7% 7% 58% 7% 7% 7% 1fr;
     width: 100vw;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 nav a {
@@ -22,7 +26,33 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-img {
+
+#appsIcon {
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+
+#signin {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    background-color: rgb(66,133,244);
+    border-radius: 2px;
+    border-style: solid;
+    border-top-style: solid;
+    color: rgb(255,255,255);
+    font-size: 13px;
+    font-weight: 700;
+    height: 28px;
+    width: 75px;
+    line-height: 28px;
+    outline-color: rgb(255,255,255);
+    margin: 15px 15px 0px 15px;
+    border: 1px solid rgb(66,133,244);
+}
+
+#googlelogo {
     margin: auto;
     margin-bottom: 10px;
 }
