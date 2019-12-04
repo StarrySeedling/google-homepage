@@ -62,6 +62,32 @@ form {
     margin-top: 10px;
 }
 
+#buttons {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#btn1,#btn2 {
+    border-radius: 4px;
+    font-size: 14px;
+    margin: auto;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
 footer {
     display: grid;
     grid-template: 40px / 1fr 1fr 2fr 6fr 1fr 1fr 1fr;
